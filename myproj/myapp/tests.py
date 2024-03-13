@@ -12,3 +12,5 @@ class AnimalTestCase(TestCase):
      cat = Animal.objects.get(name="cat")
      self.assertEqual(lion.speak(), 30)
      self.assertEqual(cat.speak(), '30') 
+
+asddasd
